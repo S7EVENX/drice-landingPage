@@ -11,12 +11,12 @@ if (isset($_POST)) {
     $mensaje = $_POST["mensaje"];
 
     //Asunto
-    $asunto = "Contanto desde Dr ice $url_pagina: $mensaje";
+    $asunto = "Contacto desde Dr ice $url_pagina: $mensaje";
 
     //Configuracion Correo
     $url_pagina = $_SERVER["HTTP_HOST"];
-    $to = "stevenesparza36@gmail.com";
-    $template = "<p> Mensaje desde Dr ice</p>
+    $to = "driceibarra23@gmail.com";
+    $template = "<p> Mensaje desde driceagua.com</p>
     <ul>
     <li>Nombre: <b>$nombre</b></li>
     <li>Correo: <b>$correo</b></li>
