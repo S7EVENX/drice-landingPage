@@ -307,11 +307,9 @@ a,p{
 }
 .sobre-nosotros {
     display: flex;
-    align-items: center;
-    flex: 1;
 }
 .sobre-nosotros .sbr-contenido{
-    margin-top: -50px;
+   
     padding: 1rem;
 }
 .sobre-nosotros p {
@@ -333,7 +331,9 @@ a,p{
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
-
+.parrafo{
+    margin-bottom: 2rem;
+}
 @media screen and (max-width:768px){
     .seccion-video{
         flex-direction: column;
